@@ -1,7 +1,5 @@
 "use client"
 
-import Image from "next/image"
-
 const segments = [
   {
     number: "01",
@@ -123,23 +121,14 @@ export function ForWhomSection() {
               </div>
 
               {/* Image */}
-              <div className="lg:w-1/2 relative group">
-                <div
-                  className={`absolute inset-0 rounded-2xl transform -z-10 transition-transform ${
-                    index % 2 === 0
-                      ? "bg-primary/20 translate-x-4 translate-y-4 group-hover:translate-x-6 group-hover:translate-y-6"
-                      : "bg-text-main/10 -translate-x-4 translate-y-4 group-hover:-translate-x-6 group-hover:translate-y-6"
-                  }`}
+              <figure className="lg:w-1/2">
+                <img
+                  src={segment.image}
+                  alt={segment.title}
+                  loading="lazy"
+                  className="w-full rounded-2xl shadow-xl"
                 />
-                <div className="rounded-2xl overflow-hidden shadow-xl aspect-[3/4] relative">
-                  <Image
-                    src={segment.image}
-                    alt={segment.title}
-                    fill
-                    className="object-cover transform transition-transform duration-700 group-hover:scale-105"
-                  />
-                </div>
-              </div>
+              </figure>
             </div>
           ))}
         </div>
