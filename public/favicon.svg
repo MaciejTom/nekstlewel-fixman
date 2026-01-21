@@ -2,10 +2,10 @@
   <rect width="32" height="32" rx="6" fill="#facc15"/>
   <g fill="#1f2937">
     <!-- Roller head -->
-    <rect x="7" y="10" width="11" height="6" rx="1.5"/>
+    <rect x="8" y="11" width="9" height="5" rx="1"/>
     <!-- Handle connector -->
-    <rect x="18" y="12" width="3" height="2"/>
+    <rect x="17" y="12.5" width="2" height="2"/>
     <!-- Handle -->
-    <rect x="20" y="11" width="2.5" height="11" rx="1"/>
+    <rect x="18" y="12" width="2" height="9" rx="0.5"/>
   </g>
 </svg>
