@@ -90,6 +90,11 @@ export const metadata: Metadata = {
   title: "Remont mieszkania Stalowa Wola | FIXMAN - 150+ opinii 5.0, 19 lat doświadczenia",
   description: "Remonty, hydraulika, elektryka, malowanie. 150+ pozytywnych opinii - wszystkie 5 gwiazdek. 19 lat doświadczenia. Stalowa Wola, Tarnobrzeg, Sandomierz. Zadzwoń!",
   metadataBase: new URL('https://fixman.pl'),
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   alternates: {
     canonical: '/',
   },
