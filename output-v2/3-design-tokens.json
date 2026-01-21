@@ -1,0 +1,148 @@
+{
+  "direction": "WARM",
+  "reasoning": "B2C firma remontowa, osobisty kontakt, opinie pełne ciepła - wymaga przyjaznej, dostępnej estetyki",
+
+  "colors": {
+    "primary": {
+      "value": "#2D5A3D",
+      "name": "Forest Green",
+      "usage": "Nagłówki, CTA, elementy kluczowe",
+      "reasoning": "Zielony = zaufanie, natura, dom. Cieplejszy niż niebieski, bardziej przyjazny."
+    },
+    "secondary": {
+      "value": "#E8A54B",
+      "name": "Warm Amber",
+      "usage": "Akcenty, gwiazdki opinii, wyróżnienia",
+      "reasoning": "Ciepły akcent, kojarzy się z domowym ciepłem i jakością"
+    },
+    "background": {
+      "value": "#FAFAF8",
+      "name": "Warm White",
+      "usage": "Tło główne",
+      "reasoning": "Cieplejszy odcień bieli, przyjazny dla oczu"
+    },
+    "surface": {
+      "value": "#FFFFFF",
+      "name": "White",
+      "usage": "Karty, sekcje wyróżnione"
+    },
+    "text": {
+      "primary": "#1A1A1A",
+      "secondary": "#4A4A4A",
+      "muted": "#6B6B6B"
+    },
+    "semantic": {
+      "success": "#2D5A3D",
+      "warning": "#E8A54B",
+      "error": "#C62828",
+      "stars": "#E8A54B"
+    }
+  },
+
+  "typography": {
+    "headings": {
+      "family": "Plus Jakarta Sans",
+      "weights": [600, 700],
+      "reasoning": "Nowoczesna, przyjazna, dobra czytelność - bardziej ludzka niż Inter"
+    },
+    "body": {
+      "family": "Inter",
+      "weights": [400, 500],
+      "reasoning": "Czytelna, neutralna, dobrze współgra z nagłówkami"
+    },
+    "scale": {
+      "h1": "2.5rem",
+      "h2": "2rem",
+      "h3": "1.5rem",
+      "h4": "1.25rem",
+      "body": "1rem",
+      "small": "0.875rem"
+    }
+  },
+
+  "spacing": {
+    "base": "8px",
+    "scale": [8, 16, 24, 32, 48, 64, 96],
+    "section_padding": "64px",
+    "container_max_width": "1200px"
+  },
+
+  "borders": {
+    "radius": {
+      "small": "8px",
+      "medium": "12px",
+      "large": "16px",
+      "full": "9999px"
+    },
+    "reasoning": "Zaokrąglone kąty dla WARM direction - przyjazne, dostępne"
+  },
+
+  "shadows": {
+    "card": "0 2px 12px rgba(0,0,0,0.06)",
+    "elevated": "0 8px 24px rgba(0,0,0,0.08)",
+    "reasoning": "Miękkie cienie, nie agresywne"
+  },
+
+  "components": {
+    "buttons": {
+      "primary": {
+        "background": "#2D5A3D",
+        "text": "#FFFFFF",
+        "hover": "#3D6F4D",
+        "border_radius": "8px",
+        "padding": "14px 28px"
+      },
+      "secondary": {
+        "background": "transparent",
+        "text": "#2D5A3D",
+        "border": "2px solid #2D5A3D",
+        "hover_background": "#2D5A3D",
+        "hover_text": "#FFFFFF"
+      }
+    },
+    "cards": {
+      "background": "#FFFFFF",
+      "border_radius": "12px",
+      "shadow": "0 2px 12px rgba(0,0,0,0.06)",
+      "padding": "24px"
+    },
+    "testimonials": {
+      "background": "#FFFFFF",
+      "border_left": "4px solid #E8A54B",
+      "border_radius": "8px",
+      "stars_color": "#E8A54B"
+    },
+    "inputs": {
+      "border": "1px solid #D1D1D1",
+      "border_radius": "8px",
+      "focus_border": "#2D5A3D",
+      "padding": "14px 16px"
+    }
+  },
+
+  "imagery": {
+    "style": "Autentyczne zdjęcia realizacji, przed/po, człowiek przy pracy",
+    "filters": "Lekkie ocieplenie - ciepłe tony",
+    "overlays": "Gradient na hero - ciemny do przezroczystego",
+    "icons": "Lucide - rounded variant, ciepłe"
+  },
+
+  "social_proof": {
+    "stars": {
+      "filled": "#E8A54B",
+      "empty": "#E0E0E0",
+      "size": "20px"
+    },
+    "badge": {
+      "background": "#2D5A3D",
+      "text": "#FFFFFF",
+      "border_radius": "full"
+    }
+  },
+
+  "metadata": {
+    "designer_version": "2.0",
+    "generated_at": "2026-01-10",
+    "quality_flow": true
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "company": {
+    "name": "FIXMAN",
+    "owner": "Wojciech Bełzak",
+    "location": {
+      "city": "Stalowa Wola",
+      "region": "Podkarpackie",
+      "service_areas": ["Stalowa Wola", "Tarnobrzeg", "Sandomierz", "Nisko", "Janów Lubelski", "Nowa Dęba"]
+    },
+    "contact": {
+      "platform": "Fixly",
+      "years_on_platform": 5
+    },
+    "experience_years": 19,
+    "founded_note": "19 lat doświadczenia w branży remontowej"
+  },
+
+  "team_structure": {
+    "type": "small_team",
+    "employees_count": 3,
+    "positioning": "company",
+    "tone_guide": "Nasz zespół (nie 'pomogę ci' ani 'oferujemy')",
+    "reasoning": "3 pracowników = firma z zespołem, ale nadal osobiste podejście widoczne w opiniach"
+  },
+
+  "business_model": {
+    "type": "B2C",
+    "primary_clients": [
+      "Właściciele mieszkań",
+      "Właściciele domów",
+      "Osoby potrzebujące szybkiej naprawy"
+    ],
+    "secondary_clients": [
+      "Małe biura",
+      "Lokale usługowe"
+    ],
+    "role": "Firma remontowa full-service + złota rączka"
+  },
+
+  "services": {
+    "total_count": 212,
+    "categories": [
+      {
+        "name": "Remont",
+        "count": 69,
+        "examples": ["Remont łazienki", "Remont kuchni", "Remont mieszkania", "Wykończenie pod klucz"]
+      },
+      {
+        "name": "Montaż i naprawa",
+        "count": 67,
+        "examples": ["Montaż mebli", "Montaż drzwi", "Montaż sufitu podwieszanego"]
+      },
+      {
+        "name": "Hydraulik",
+        "count": 25,
+        "examples": ["Pogotowie hydrauliczne", "Instalacja wodna", "Naprawa spłuczki"]
+      },
+      {
+        "name": "Złota rączka",
+        "count": 20,
+        "examples": ["Drobne naprawy", "Wieszanie szafek", "Montaż listew"]
+      },
+      {
+        "name": "Malarz",
+        "count": 16,
+        "examples": ["Malowanie ścian", "Malowanie sufitu", "Tapetowanie"]
+      },
+      {
+        "name": "Elektryk",
+        "count": 15,
+        "examples": ["Wymiana instalacji elektrycznej", "Bruzdowanie", "Montaż gniazdek"]
+      }
+    ],
+    "key_strength": "Wszystko pod jednym dachem - od drobnej naprawy po remont generalny"
+  },
+
+  "reviews": {
+    "count": 106,
+    "average_rating": 5.0,
+    "positive_percentage": 100,
+    "source": "Fixly",
+    "from_clients": 66,
+    "quality": "EXCELLENT - 100% 5-star reviews",
+
+    "sentiment_analysis": {
+      "most_mentioned_qualities": [
+        {"quality": "profesjonalizm", "count": 12, "quotes": ["profesjonalnie", "profesjonalista", "fachowo"]},
+        {"quality": "rzetelność", "count": 8, "quotes": ["rzetelnie", "solidnie", "dokładnie"]},
+        {"quality": "szybkość", "count": 7, "quotes": ["szybko", "sprawnie", "terminowo"]},
+        {"quality": "dobry kontakt", "count": 6, "quotes": ["dobry kontakt", "łatwość w komunikacji", "świetny kontakt"]},
+        {"quality": "doradztwo", "count": 5, "quotes": ["doradzi", "wyjaśnienia", "objaśniał"]},
+        {"quality": "sympatyczność", "count": 4, "quotes": ["sympatyczny", "życzliwy", "kultura osobista"]}
+      ],
+      "recurring_phrases": [
+        "Polecam",
+        "Polecam serdecznie",
+        "100% polecam",
+        "szczerze polecam",
+        "gorąco polecam"
+      ]
+    },
+
+    "best_quotes": [
+      {
+        "quote": "Całokształt prac remontowych mieszkania został wykonany perfekcyjnie, bez zastrzeżeń. Prace zostały wykonane starannie, wręcz perfekcyjnie.",
+        "author": "Jacek",
+        "service": "Remont kuchni",
+        "use_for": "Hero/Dlaczego My"
+      },
+      {
+        "quote": "Ogromnie polecam Pana Wojtka! Bardzo rzetelny, uczciwy, sympatyczny w kontakcie. Krok po kroku objaśniał i doradzał.",
+        "author": "malg",
+        "service": "Remont mieszkania",
+        "use_for": "Dlaczego My - doradztwo"
+      },
+      {
+        "quote": "Profesjonalnie, rzetelnie bardzo dokładnie i co najważniejsze, z szacunkiem do klienta.",
+        "author": "Marek",
+        "service": "Adaptacja poddasza",
+        "use_for": "Dlaczego My - podejście"
+      },
+      {
+        "quote": "Pan Wojciech przed malowaniem zabezpieczył wszystkie kontakty, listwy, żyrandole itd. Nic nie zostało zabrudzone.",
+        "author": "Paweł",
+        "service": "Malowanie ścian",
+        "use_for": "Usługi - szczegółowość"
+      },
+      {
+        "quote": "Solidna firma. Panowie pracowici, kompetentni, życzliwie udzielający rad i wyjaśnień. Co najważniejsze - obowiązkowi i uczciwi.",
+        "author": "Wanda",
+        "service": "Hydraulika",
+        "use_for": "Opinie"
+      }
+    ]
+  },
+
+  "usp": [
+    {
+      "rank": 1,
+      "statement": "106 opinii - wszystkie 5.0",
+      "evidence": "100% pozytywnych opinii na Fixly",
+      "keyword": "perfekcyjna reputacja",
+      "use_in": "Hero, Social Proof"
+    },
+    {
+      "rank": 2,
+      "statement": "19 lat doświadczenia",
+      "evidence": "Prawie 2 dekady w branży remontowej",
+      "keyword": "doświadczenie",
+      "use_in": "Hero, Dlaczego My"
+    },
+    {
+      "rank": 3,
+      "statement": "212 usług pod jednym dachem",
+      "evidence": "Remont, hydraulika, elektryka, malowanie, złota rączka",
+      "keyword": "wszystko naprawimy",
+      "use_in": "Usługi"
+    },
+    {
+      "rank": 4,
+      "statement": "Doradztwo i komunikacja",
+      "evidence": "Wielokrotnie chwalony za wyjaśnienia i doradztwo",
+      "keyword": "doradzi",
+      "use_in": "Dlaczego My"
+    }
+  ],
+
+  "direction": {
+    "chosen": "WARM",
+    "confidence": 0.95,
+    "reasoning": [
+      "B2C - klienci indywidualni (mieszkania, domy)",
+      "Opinie pełne ciepłych słów (sympatyczny, życzliwy, pomocny)",
+      "Osobisty kontakt - Pan Wojtek chwalony imiennie",
+      "Usługi domowe wymagają zaufania i relacji"
+    ],
+    "alternatives_rejected": [
+      {
+        "direction": "INDUSTRIAL",
+        "reason": "Zbyt chłodne dla usług domowych i osobistego kontaktu"
+      }
+    ]
+  },
+
+  "tone": {
+    "primary": "przyjazny_profesjonalista",
+    "attributes": ["ciepły", "pomocny", "konkretny", "godny zaufania"],
+    "voice_examples": {
+      "good": ["Nasz zespół pomoże", "Doradzimy", "Zajmiemy się"],
+      "avoid": ["Oferujemy", "Realizujemy usługi", "Firma świadczy"]
+    }
+  },
+
+  "keywords": {
+    "primary": "remont mieszkania Stalowa Wola",
+    "secondary": [
+      "hydraulik Stalowa Wola",
+      "złota rączka Stalowa Wola",
+      "malowanie ścian Tarnobrzeg",
+      "remont łazienki Sandomierz",
+      "elektryk Stalowa Wola"
+    ],
+    "long_tail": [
+      "firma remontowa Stalowa Wola opinie",
+      "remont pod klucz Stalowa Wola",
+      "naprawa hydrauliki Tarnobrzeg"
+    ]
+  },
+
+  "content_strategy": {
+    "hero_focus": "106 opinii 5.0 + 19 lat doświadczenia + telefon",
+    "proof_elements": ["Opinie z Fixly", "Liczba usług (212)", "Zasięg (6 miast)"],
+    "quotes_to_use": 4,
+    "cta_primary": "Zadzwoń i umów termin",
+    "differentiator": "Perfekcyjna reputacja (100% pozytywnych) + wszechstronność"
+  },
+
+  "metadata": {
+    "analyzer_version": "2.0",
+    "generated_at": "2026-01-10",
+    "quality_flow": true,
+    "marketing_guidelines": true
+  }
+}

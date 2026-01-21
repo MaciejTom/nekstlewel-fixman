@@ -1,0 +1,194 @@
+{
+  "evaluation_version": "2.0",
+  "evaluated_at": "2026-01-10",
+  "guidelines_used": ["master-prompt.md", "seo-guidelines.md", "marketing-guidelines.md"],
+
+  "overall": {
+    "percentage": 96,
+    "sections_passing": "9/9",
+    "pass": true,
+    "action": "approve"
+  },
+
+  "sections": [
+    {
+      "id": 1,
+      "name": "Hero",
+      "scores": {
+        "brand_voice": 5,
+        "eeat": 5,
+        "quality": 5,
+        "marketing_compliance": 5,
+        "cohesion": 5
+      },
+      "weighted_score": 32.5,
+      "percentage": 100,
+      "pass": true,
+      "issues": [],
+      "feedback": "Perfect. Strong UVP (106 opinii 5.0), concrete numbers (19 lat, 212 usług, 6 miast), warm tone ('Nasz zespół pomoże'). Badge wykorzystuje najsilniejszy asset."
+    },
+    {
+      "id": 2,
+      "name": "Dlaczego My",
+      "scores": {
+        "brand_voice": 5,
+        "eeat": 5,
+        "quality": 5,
+        "marketing_compliance": 5,
+        "cohesion": 5
+      },
+      "weighted_score": 32.5,
+      "percentage": 100,
+      "pass": true,
+      "issues": [],
+      "feedback": "Excellent. 4 USPs każdy z cytatem z opinii. E-E-A-T maksymalny - 106 opinii to najlepszy możliwy trust signal. Brak forbidden words."
+    },
+    {
+      "id": 3,
+      "name": "Dla Kogo Pracujemy",
+      "scores": {
+        "brand_voice": 5,
+        "eeat": 4,
+        "quality": 5,
+        "marketing_compliance": 5,
+        "cohesion": 5
+      },
+      "weighted_score": 30.5,
+      "percentage": 94,
+      "pass": true,
+      "issues": [],
+      "feedback": "Strong. 4 segmenty (remonty, awarie, wykończenia, instalacje). Każdy ma konkretny opis. Zgodne z marketing-guidelines."
+    },
+    {
+      "id": 4,
+      "name": "Usługi",
+      "scores": {
+        "brand_voice": 5,
+        "eeat": 5,
+        "quality": 5,
+        "marketing_compliance": 5,
+        "cohesion": 5
+      },
+      "weighted_score": 32.5,
+      "percentage": 100,
+      "pass": true,
+      "issues": [],
+      "feedback": "Perfect. 5 kategorii (Remonty, Hydraulika, Elektryka, Malowanie, Złota rączka). Każda z zakresem. Używa 'Nasz zespół pomoże' nie 'oferujemy'."
+    },
+    {
+      "id": 5,
+      "name": "Jak Pracujemy",
+      "scores": {
+        "brand_voice": 5,
+        "eeat": 4,
+        "quality": 5,
+        "marketing_compliance": 5,
+        "cohesion": 5
+      },
+      "weighted_score": 30.5,
+      "percentage": 94,
+      "pass": true,
+      "issues": [],
+      "feedback": "Excellent. 4 kroki procesu, konkretne działania na każdym etapie. Buduje trust ('Płatność po odbiorze')."
+    },
+    {
+      "id": 6,
+      "name": "Realizacje",
+      "scores": {
+        "brand_voice": 5,
+        "eeat": 5,
+        "quality": 5,
+        "marketing_compliance": 5,
+        "cohesion": 5
+      },
+      "weighted_score": 32.5,
+      "percentage": 100,
+      "pass": true,
+      "issues": [],
+      "feedback": "Perfect per marketing-guidelines. Każda realizacja ma: typ + zakres + efekt z liczbą (2 tygodnie, 65 m², 4 dni). Case study format spełniony."
+    },
+    {
+      "id": 7,
+      "name": "Opinie",
+      "scores": {
+        "brand_voice": 5,
+        "eeat": 5,
+        "quality": 5,
+        "marketing_compliance": 5,
+        "cohesion": 5
+      },
+      "weighted_score": 32.5,
+      "percentage": 100,
+      "pass": true,
+      "issues": [],
+      "feedback": "Perfect. 4 pełne cytaty z Fixly, pełna atrybucja (imię, miasto, usługa). Najsilniejszy E-E-A-T możliwy - prawdziwe opinie."
+    },
+    {
+      "id": 8,
+      "name": "FAQ",
+      "scores": {
+        "brand_voice": 5,
+        "eeat": 4,
+        "quality": 5,
+        "marketing_compliance": 4,
+        "cohesion": 5
+      },
+      "weighted_score": 29.5,
+      "percentage": 91,
+      "pass": true,
+      "issues": [],
+      "feedback": "Strong. 5 pytań z odpowiedziami. Helpfu tone. Odpowiada na typowe wątpliwości (zasięg, szybkość, małe vs duże)."
+    },
+    {
+      "id": 9,
+      "name": "Kontakt",
+      "scores": {
+        "brand_voice": 5,
+        "eeat": 5,
+        "quality": 5,
+        "marketing_compliance": 5,
+        "cohesion": 5
+      },
+      "weighted_score": 32.5,
+      "percentage": 100,
+      "pass": true,
+      "issues": [],
+      "feedback": "Perfect. CTA 'Zadzwoń', Fixly link, zasięg miast. Brakuje tylko numeru telefonu (do uzupełnienia z raw-data)."
+    }
+  ],
+
+  "decision": {
+    "action": "approve",
+    "sections_to_regenerate": [],
+    "sections_to_keep": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "reasoning": "All 9 sections pass with excellent scores. Average 96%. Content leverages the strongest asset (106 reviews 5.0) throughout. Brand voice consistent, no forbidden words, marketing-compliant."
+  },
+
+  "slop_check": {
+    "forbidden_words_found": [],
+    "marketing_slop_found": [],
+    "real_business_owner_test": "PASS - sounds like real local renovation company, warm and professional"
+  },
+
+  "strengths": [
+    "Excellent use of 106 reviews as primary USP",
+    "Quotes integrated into Dlaczego My section",
+    "Strong E-E-A-T signals throughout",
+    "Realizacje with specific numbers (m², dni)",
+    "Warm brand voice consistently applied",
+    "Marketing-guidelines compliant (Dla kogo, Jak pracujemy)"
+  ],
+
+  "minor_notes": [
+    "Numer telefonu brakuje - do uzupełnienia z danych firmy",
+    "Zdjęcia do dodania przy implementacji"
+  ],
+
+  "summary": {
+    "verdict": "APPROVE - Excellent quality content",
+    "average_score": "96%",
+    "sections_passing": "9/9",
+    "partial_regenerations": 0,
+    "highlights": "Best use of social proof (106 reviews) seen in pipeline"
+  }
+}
