@@ -110,15 +110,15 @@ export function PortfolioSection() {
               key={index}
               variants={itemVariants}
               className={`group relative rounded-xl overflow-hidden cursor-pointer ${
-                project.wide ? "md:col-span-2" : ""
+                project.wide ? "md:col-span-2 aspect-video" : "aspect-[3/4]"
               }`}
             >
               <Image
                 src={project.image}
                 alt={project.title}
-                width={project.wide ? 800 : 400}
-                height={project.wide ? 500 : 600}
-                className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+                fill
+                sizes={project.wide ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 25vw"}
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                 <span className="text-primary text-xs font-bold uppercase tracking-wider mb-1">
