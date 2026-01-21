@@ -8,37 +8,43 @@ const projects = [
     image: "/images/1228300-413fa9a06d3c0b45baef359721b4aa24.jpg",
     location: "Stalowa Wola",
     title: "Remont łazienki - z PRL-owskiej w nowoczesną",
-    category: "lazienki"
+    category: "lazienki",
+    wide: true
   },
   {
     image: "/images/1228300-658857cd0d8459ee41d1d04ba598c568.jpg",
     location: "Nisko",
     title: "Remont kuchni - projekt klienta 1:1",
-    category: "kuchnie"
-  },
-  {
-    image: "/images/1228300-07a500c33fa652b7fb1342e764300325.jpg",
-    location: "Stalowa Wola",
-    title: "Malowanie mieszkania - 65 m², 4 dni",
-    category: "wykonczenia"
-  },
-  {
-    image: "/images/1228300-657b1f0b1051af0671f2c4b313a3c633.jpg",
-    location: "Stalowa Wola",
-    title: "Wymiana instalacji elektrycznej",
-    category: "elektryka"
+    category: "kuchnie",
+    wide: true
   },
   {
     image: "/images/1228300-cc29dfc46bdd0de18dbf241a6a9502a2.jpg",
     location: "Tarnobrzeg",
     title: "Łazienka premium - czarny marmur",
-    category: "lazienki"
+    category: "lazienki",
+    wide: false
   },
   {
     image: "/images/1228300-17acaa71302208da75cd09ec0c9e3b29.jpg",
     location: "Rozwadów",
     title: "Łazienka z wanną - drewno i kamień",
-    category: "lazienki"
+    category: "lazienki",
+    wide: false
+  },
+  {
+    image: "/images/1228300-07a500c33fa652b7fb1342e764300325.jpg",
+    location: "Stalowa Wola",
+    title: "Wykończenie mieszkania - panele i drzwi",
+    category: "wykonczenia",
+    wide: false
+  },
+  {
+    image: "/images/1228300-657b1f0b1051af0671f2c4b313a3c633.jpg",
+    location: "Stalowa Wola",
+    title: "Wykończenie - LED i panele jodełka",
+    category: "wykonczenia",
+    wide: false
   }
 ]
 
@@ -91,25 +97,27 @@ export function PortfolioSection() {
           ))}
         </div>
 
-        {/* Projects grid - masonry layout */}
+        {/* Projects grid */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
-          className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
         >
           {projects.map((project, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
-              className="group relative rounded-xl overflow-hidden cursor-pointer break-inside-avoid"
+              className={`group relative rounded-xl overflow-hidden cursor-pointer ${
+                project.wide ? "md:col-span-2" : ""
+              }`}
             >
               <Image
                 src={project.image}
                 alt={project.title}
-                width={600}
-                height={800}
+                width={project.wide ? 800 : 400}
+                height={project.wide ? 500 : 600}
                 className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
