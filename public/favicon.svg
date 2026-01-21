@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="6" fill="#facc15"/>
-  <path d="M22 12.5l-3-3-1.5 1.5 3 3L22 12.5zM12.5 17l-2.5 5 5-2.5 7-7-2.5-2.5-7 7zM10 22v-2.5l2.5 2.5H10z" fill="#1f2937"/>
+  <g fill="#1f2937">
+    <!-- Roller head -->
+    <rect x="6" y="8" width="14" height="8" rx="2"/>
+    <!-- Handle connector -->
+    <rect x="20" y="11" width="4" height="3"/>
+    <!-- Handle -->
+    <rect x="23" y="10" width="3" height="14" rx="1"/>
+  </g>
 </svg>

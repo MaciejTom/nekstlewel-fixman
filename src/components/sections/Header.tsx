@@ -24,7 +24,7 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 text-text-main group cursor-pointer">
           <div className="flex items-center justify-center size-10 bg-primary rounded-lg text-text-main">
-            <span className="material-symbols-outlined">construction</span>
+            <span className="material-symbols-outlined">imagesearch_roller</span>
           </div>
           <span className="text-2xl font-black tracking-tight uppercase">FIXMAN</span>
         </Link>
