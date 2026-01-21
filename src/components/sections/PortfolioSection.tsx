@@ -91,25 +91,26 @@ export function PortfolioSection() {
           ))}
         </div>
 
-        {/* Projects grid */}
+        {/* Projects grid - masonry layout */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6"
         >
           {projects.map((project, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
-              className="group relative rounded-xl overflow-hidden aspect-[4/3] cursor-pointer"
+              className="group relative rounded-xl overflow-hidden cursor-pointer break-inside-avoid"
             >
               <Image
                 src={project.image}
                 alt={project.title}
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                width={600}
+                height={800}
+                className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                 <span className="text-primary text-xs font-bold uppercase tracking-wider mb-1">
