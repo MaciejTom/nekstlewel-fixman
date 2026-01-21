@@ -49,26 +49,29 @@ export function PortfolioSection() {
         </div>
 
         {/* Projects grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <motion.figure
+            <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
+              className="group relative aspect-[4/3] rounded-xl overflow-hidden cursor-pointer"
             >
               <img
                 src={project.image}
                 alt={project.title}
                 loading="lazy"
-                className="w-full rounded-xl hover:scale-[1.02] transition-transform duration-300"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
-              <figcaption className="mt-3">
-                <span className="text-primary text-xs font-bold uppercase">{project.location}</span>
-                <h3 className="text-text-main font-bold mt-1">{project.title}</h3>
-              </figcaption>
-            </motion.figure>
+              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                <span className="text-primary text-xs font-bold uppercase tracking-wider mb-1">
+                  {project.location}
+                </span>
+                <h3 className="text-white text-xl font-bold">{project.title}</h3>
+              </div>
+            </motion.div>
           ))}
         </div>
       </div>
