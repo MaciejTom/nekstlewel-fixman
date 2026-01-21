@@ -1,49 +1,42 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
 
 const projects = [
   {
     image: "/images/1228300-413fa9a06d3c0b45baef359721b4aa24.jpg",
     location: "Stalowa Wola",
     title: "Remont łazienki - z PRL-owskiej w nowoczesną",
-    category: "lazienki",
     wide: true
   },
   {
     image: "/images/1228300-658857cd0d8459ee41d1d04ba598c568.jpg",
     location: "Nisko",
     title: "Remont kuchni - projekt klienta 1:1",
-    category: "kuchnie",
     wide: true
   },
   {
     image: "/images/1228300-cc29dfc46bdd0de18dbf241a6a9502a2.jpg",
     location: "Tarnobrzeg",
     title: "Łazienka premium - czarny marmur",
-    category: "lazienki",
     wide: false
   },
   {
     image: "/images/1228300-17acaa71302208da75cd09ec0c9e3b29.jpg",
     location: "Rozwadów",
     title: "Łazienka z wanną - drewno i kamień",
-    category: "lazienki",
     wide: false
   },
   {
     image: "/images/1228300-07a500c33fa652b7fb1342e764300325.jpg",
     location: "Stalowa Wola",
     title: "Wykończenie mieszkania - panele i drzwi",
-    category: "wykonczenia",
     wide: false
   },
   {
     image: "/images/1228300-657b1f0b1051af0671f2c4b313a3c633.jpg",
     location: "Stalowa Wola",
     title: "Wykończenie - LED i panele jodełka",
-    category: "wykonczenia",
     wide: false
   }
 ]
@@ -97,35 +90,34 @@ export function PortfolioSection() {
           ))}
         </div>
 
-        {/* Projects grid */}
+        {/* Projects grid - clean CSS Grid approach */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
+          className="grid grid-cols-1 md:grid-cols-2 gap-4"
         >
           {projects.map((project, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
-              className={`group relative rounded-xl overflow-hidden cursor-pointer ${
-                project.wide ? "md:col-span-2 aspect-video" : "aspect-[3/4]"
-              }`}
+              className="group cursor-pointer"
             >
-              <Image
-                src={project.image}
-                alt={project.title}
-                fill
-                sizes={project.wide ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 25vw"}
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-                <span className="text-primary text-xs font-bold uppercase tracking-wider mb-1">
+              <figure className="overflow-hidden rounded-xl">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  loading="lazy"
+                  className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
+                />
+              </figure>
+              <figcaption className="mt-3">
+                <span className="text-primary text-xs font-bold uppercase tracking-wider">
                   {project.location}
                 </span>
-                <h3 className="text-white text-xl font-bold">{project.title}</h3>
-              </div>
+                <h3 className="text-text-main text-lg font-bold mt-1">{project.title}</h3>
+              </figcaption>
             </motion.div>
           ))}
         </motion.div>
