@@ -10,7 +10,7 @@ const segments = [
     highlight: "Remont pod klucz",
     features: ["Remont łazienki (płytki, hydraulika, armatura)", "Remont kuchni (zabudowa, instalacje)", "Remont mieszkania (wszystkie prace)", "Wykończenie pod klucz"],
     cta: "Zamów wycenę remontu",
-    image: "/images/1228300-053524b2f7dd2b090ab82fe739ec74d2.jpg",
+    image: "/images/1228300-445e982461b7048669d6bed7cfac9ee5.jpg",
     bgClass: "bg-primary"
   },
   {
@@ -21,7 +21,7 @@ const segments = [
     features: ["Pogotowie hydrauliczne (awarie)", "Instalacja wodna i kanalizacyjna", "Montaż armatury (krany, baterie)", "Naprawa spłuczek i WC"],
     featureIcons: ["emergency", "water_drop", "faucet", "wc"],
     cta: "Zgłoś awarię",
-    image: "/images/1228300-922c185d06dcd1ea73ebb5b4c2a02e00.jpg",
+    image: "/images/1228300-eebf24d6e6777d6bef3fbdb9d83245a8.jpg",
     bgClass: "bg-text-main text-white"
   },
   {
@@ -32,7 +32,7 @@ const segments = [
     features: ["Wymiana instalacji elektrycznej", "Montaż gniazdek i włączników", "Bruzdowanie pod instalację", "Naprawa usterek elektrycznych"],
     featureIcons: ["bolt", "electrical_services", "construction", "build"],
     cta: "Zleć naprawę",
-    image: "/images/1228300-61a6b7062a05ab8549ed4deb5bedc618.jpg",
+    image: "/images/1228300-657b1f0b1051af0671f2c4b313a3c633.jpg",
     bgClass: "bg-primary"
   },
   {
@@ -43,7 +43,7 @@ const segments = [
     features: ["Malowanie ścian i sufitów", "Szpachlowanie i gładzie", "Tapetowanie", "Malowanie elewacji"],
     featureIcons: ["format_paint", "layers", "wallpaper", "home"],
     cta: "Umów malowanie",
-    image: "/images/1228300-657b1f0b1051af0671f2c4b313a3c633.jpg",
+    image: "/images/1228300-402a47faaed765aa87a9f19514057db8.jpg",
     bgClass: "bg-text-main text-white"
   },
   {
@@ -54,7 +54,7 @@ const segments = [
     features: ["Montaż mebli i szafek", "Układanie paneli i listew", "Montaż drzwi", "Drobne naprawy domowe"],
     featureIcons: ["handyman", "view_module", "door_front", "home_repair_service"],
     cta: "Zleć montaż",
-    image: "/images/1228300-17acaa71302208da75cd09ec0c9e3b29.jpg",
+    image: "/images/1228300-07a500c33fa652b7fb1342e764300325.jpg",
     bgClass: "bg-primary"
   }
 ]
