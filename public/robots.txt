@@ -1,0 +1,8 @@
+# Robots.txt for FIXMAN
+# https://fixman.pl
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://fixman.pl/sitemap.xml
