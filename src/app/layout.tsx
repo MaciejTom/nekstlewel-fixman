@@ -107,7 +107,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/ultimateHero.jpg',
+        url: '/images/samochodLogo.jpg',
         width: 1200,
         height: 630,
         alt: 'FIXMAN - Remonty Stalowa Wola',
@@ -118,7 +118,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'FIXMAN - Remonty Stalowa Wola',
     description: 'Remonty, hydraulika, elektryka, malowanie. 150+ opinii 5.0.',
-    images: ['/ultimateHero.jpg'],
+    images: ['/images/samochodLogo.jpg'],
   },
 };
 
